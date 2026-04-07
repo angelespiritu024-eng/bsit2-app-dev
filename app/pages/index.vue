@@ -38,13 +38,21 @@
 definePageMeta({
   layout: 'auth',
 });
-const defaultUsername = ref("admin")
-const defaultPassword = ref("admin123")
+const defaultUsername = ref("admin");
+const defaultPassword = ref("admin123");
 const username = ref("");
 const password = ref("");
 
 //Regular Function
 function login(){
-  alert('Login Function Called')
+  if(username.value === defaultUsername.value &&
+    password.value === defaultPassword.value
+  ){
+    //Navigate to dashboard page
+    navigateTo("/dashboard")
+  } else {
+    //Show Alert Message
+    alert("Invalid Username or Password");
+  }
 }
 </script>
