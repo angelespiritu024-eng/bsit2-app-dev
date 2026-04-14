@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1> Calculate Page </h1>
-    
+
     <v-card width="500">
       <v-card-text>
         <v-form>
