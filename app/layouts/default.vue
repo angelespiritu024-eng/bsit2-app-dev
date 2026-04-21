@@ -16,8 +16,9 @@
         <v-list density="compact" nav>
           <v-list-item prepend-icon="mdi-home-city" title="Dashboad" value="dashboard" to="/dashboard"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="prelim" to="/prelim"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline" title="Midterm" value="midterm" to="/midterm"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline" title="Calculate" value="prelim" to="/calculate"></v-list-item>
+          <v-list-item prepend-icon="mdi-calculator" title="Midterm" value="midterm" to="/midterm"></v-list-item>
+          <v-list-item prepend-icon="mdi-folder" title="Calculate" value="prelim" to="/calculate"></v-list-item>
+          <v-list-item prepend-icon="mdi-star" title="To-Do" value="todo" to="/todo"></v-list-item>
         
         </v-list>
       </v-navigation-drawer>
